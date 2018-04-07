@@ -13,6 +13,9 @@
 		98F4243A2078425700C8C7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F424392078425700C8C7CB /* Assets.xcassets */; };
 		98F4243D2078425700C8C7CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F4243B2078425700C8C7CB /* LaunchScreen.storyboard */; };
 		98F424482078425700C8C7CB /* ninetynineproblemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F424472078425700C8C7CB /* ninetynineproblemsTests.swift */; };
+		98F4245C2078433600C8C7CB /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F4245B2078433600C8C7CB /* List.swift */; };
+		98F4245E207843E100C8C7CB /* ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F4245D207843E100C8C7CB /* ListTests.swift */; };
+		98F424622078455600C8C7CB /* List+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F424612078455600C8C7CB /* List+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		98F424432078425700C8C7CB /* ninetynineproblemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninetynineproblemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F424472078425700C8C7CB /* ninetynineproblemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninetynineproblemsTests.swift; sourceTree = "<group>"; };
 		98F424492078425700C8C7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F4245B2078433600C8C7CB /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		98F4245D207843E100C8C7CB /* ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTests.swift; sourceTree = "<group>"; };
+		98F424612078455600C8C7CB /* List+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +83,14 @@
 		98F424312078425600C8C7CB /* ninetynineproblems */ = {
 			isa = PBXGroup;
 			children = (
+				98F4245A2078432E00C8C7CB /* Classes */,
 				98F424322078425600C8C7CB /* AppDelegate.swift */,
 				98F424342078425600C8C7CB /* ViewController.swift */,
 				98F424362078425600C8C7CB /* Main.storyboard */,
 				98F424392078425700C8C7CB /* Assets.xcassets */,
 				98F4243B2078425700C8C7CB /* LaunchScreen.storyboard */,
 				98F4243E2078425700C8C7CB /* Info.plist */,
+				98F4245F2078451000C8C7CB /* Solutions */,
 			);
 			path = ninetynineproblems;
 			sourceTree = "<group>";
@@ -92,8 +100,33 @@
 			children = (
 				98F424472078425700C8C7CB /* ninetynineproblemsTests.swift */,
 				98F424492078425700C8C7CB /* Info.plist */,
+				98F4245D207843E100C8C7CB /* ListTests.swift */,
 			);
 			path = ninetynineproblemsTests;
+			sourceTree = "<group>";
+		};
+		98F4245A2078432E00C8C7CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98F4245B2078433600C8C7CB /* List.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		98F4245F2078451000C8C7CB /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				98F424602078451700C8C7CB /* Linked Lists */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+		98F424602078451700C8C7CB /* Linked Lists */ = {
+			isa = PBXGroup;
+			children = (
+				98F424612078455600C8C7CB /* List+Extensions.swift */,
+			);
+			path = "Linked Lists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F424352078425600C8C7CB /* ViewController.swift in Sources */,
+				98F4245C2078433600C8C7CB /* List.swift in Sources */,
+				98F424622078455600C8C7CB /* List+Extensions.swift in Sources */,
 				98F424332078425600C8C7CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F424482078425700C8C7CB /* ninetynineproblemsTests.swift in Sources */,
+				98F4245E207843E100C8C7CB /* ListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
